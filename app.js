@@ -33,7 +33,7 @@ handle.registerHelper('linkedin', function (value) {
 });
 
 // firebase
-var serviceAccount = require("./aula06-20106-firebase-adminsdk-cam95-8f7f2ee0d9.json");
+var serviceAccount = require("./sua_chave_da_API_firebase.json");
 
 initializeApp({
     credential: cert(serviceAccount)
