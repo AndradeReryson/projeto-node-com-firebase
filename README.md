@@ -1,4 +1,4 @@
-# projeto-node-com-firebase
+# Projeto_Node_FireBase #
 CRUD simples utilizando node com os frameworks express e handlebars e o banco de dados não relacional firebase (Google).
 
 # Antes de usar
