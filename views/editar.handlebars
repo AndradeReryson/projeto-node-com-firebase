@@ -35,14 +35,14 @@
                     </div>
                     <div class="mb-3 text-start">
                         <label class="form-label">Telefone:</label>
-                        <input type="number" name="telefone" class="form-control" id="telefone" value="{{telefone}}">
+                        <input type="text" name="telefone" class="form-control" id="telefone" value="{{telefone}}">
                     </div>
                     <div class="mb-3 text-start" >
                         <label for="origem" class="form-label text-left">Origem: </label>
                         <select id="origem" name="origem" class="form-select form-select-sm mb-3 py-2" aria-label=".form-select-sm example">
-                            <option value="1" {{{celular origem}}}>Celular</option>
-                            <option value="2" {{{whatsapp origem}}}>Whatsapp</option>
-                            <option value="3" {{{linkedin origem}}}>Linkedin</option>
+                            <option value="Celular" {{{celular origem}}}>Celular</option>
+                            <option value="Whatsapp" {{{whatsapp origem}}}>Whatsapp</option>
+                            <option value="Linkedin" {{{linkedin origem}}}>Linkedin</option>
                         </select>
                     </div>
                     <div class="mb-3 text-start">
@@ -51,7 +51,7 @@
                     </div>
                     <div class="mb-3 text-start">
                         <label class="form-label">Observação:</label>
-                        <textarea name="observacao" class="form-control" placeholder="" id="observacao" style="height: 100px">{{observacao}}</textarea>
+                        <textarea class="form-control" id="observacao" name="observacao" rows="3">{{observacao}}</textarea>
                     </div>
                     <div class="mb-3 text-start">
                         <button type="submit" class="btn btn-primary">Atualizar</button>

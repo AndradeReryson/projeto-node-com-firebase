@@ -116,10 +116,10 @@ app.post("/atualizar", async function(req, res){
     if(!(result.empty)){
 
         // apagamos o doc do nome antigo (mas temos os dados vindos do form de alteração)
-        result = db.collection('agendamentos').doc(req.body.nome_antigo).delete();
+        result = await db.collection('agendamentos').doc(req.body.nome_antigo).delete();
 
         // criamos um novo doc com os dados do usuario. Assim, caso ele mude o nome, o doc terá o nome novo
-        result = db.collection('agendamentos').doc(req.body.nome).set(
+        result = await db.collection('agendamentos').doc(req.body.nome).set(
             {
                 nome: req.body.nome,
                 telefone: req.body.telefone,
