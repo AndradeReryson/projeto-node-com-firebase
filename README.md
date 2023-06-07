@@ -1,5 +1,5 @@
 # projeto-node-com-firebase
-CRUD simples utilizando node com os frameworks express e handlebars e o banco de dados não relacional firebase (Google)
+CRUD simples utilizando node com os frameworks express e handlebars e o banco de dados não relacional firebase (Google).
 
 # Antes de usar
 > Substitua o arquivo "Sua_chave_da_API_firebase.json" pelo arquivo referente a chave da API do seu banco <Br>
